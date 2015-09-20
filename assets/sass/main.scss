@@ -67,8 +67,8 @@
 	}
 
 	.rt-links {
-		padding: 3em 0;
-		margin-bottom: 0;
+		padding: 2.5em 0 0 0;
+		margin-bottom: 0 !important;
 	}
 
 	.dark {
@@ -858,6 +858,9 @@
 				min-height: 800px;
 			}
 
+			.rt-links {
+				padding-bottom: 2.5em;
+			}
 	}
 
 /* Normal */

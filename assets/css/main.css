@@ -1027,8 +1027,8 @@ body {
     animation: none !important; }
 
 .rt-links {
-  padding: 3em 0;
-  margin-bottom: 0; }
+  padding: 2.5em 0 0 0;
+  margin-bottom: 0 !important; }
 
 .dark {
   color: #aaa;
@@ -1596,7 +1596,10 @@ button,
     line-height: 1.75em; }
 
   #header {
-    min-height: 800px; } }
+    min-height: 800px; }
+
+  .rt-links {
+    padding-bottom: 2.5em; } }
 /* Normal */
 @media screen and (max-width: 1280px) {
   /* Basic */
